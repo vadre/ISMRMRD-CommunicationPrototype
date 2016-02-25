@@ -2,6 +2,7 @@
 Client and Server prototypes for communicating MR data in the ISMRMRD format using ISMRMRD Communication Protocol
 
 02/25/2016 At initial commit:
+
            Server was developed to the point where it can accept multiple client connection requests,
            spawn reader and writer threads per client, and echo the received messages. 
            
